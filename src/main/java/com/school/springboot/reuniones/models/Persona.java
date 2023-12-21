@@ -43,4 +43,13 @@ public class Persona {
         this.nombre = nombre;
         this.apellidos = apellidos;
     }
+
+    @Override
+    public String toString() {
+        return "Persona{" +
+                "id=" + id +
+                ", nombre='" + nombre + '\'' +
+                ", apellidos='" + apellidos + '\'' +
+                '}';
+    }
 }
